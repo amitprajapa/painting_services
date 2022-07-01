@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.height {
+    height: 100vh
+}
+
+.card {
+    width: 380px;
+    height: 380px;
+    border: none
+}
+
+.form-control {
+    border: 2px solid #bdc1d2;
+    font-size: 13px;
+    height: 48px
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f7bfd9;
+    outline: 0;
+    box-shadow: none
+}
+
+.form {
+    position: relative;
+    margin-bottom: 25px
+}
+
+.form textarea {
+    height: 100px;
+    resize: none
+}
+
+.form a {
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    color: #6ca0d6;
+    font-size: 13px;
+    text-decoration: none;
+    z-index: 10;
+    background-color: #fff;
+    padding: 5px
+}
+
+.fa-paperclip {
+    font-size: 19px
+}
+
+.quote {
+    font-size: 13px
+}
+
+.send {
+    height: 46px;
+    font-size: 14px
+}

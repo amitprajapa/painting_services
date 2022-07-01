@@ -1,0 +1,104 @@
+body{
+    background:#EAE9E5;
+}
+.bg-img{
+    background-image: url(backgrdimg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login_form{
+    margin-top: 25%;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+    border-radius: 5px;
+}
+.form_btn{
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+.label_text{
+    font-size: 12px;
+}
+.form-control{border-radius: 25px}
+.signup_form{
+    background: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+    border-radius: 5px;
+
+}
+.logo{
+    height: 50px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.errmsg{
+    margin: 2px auto; 
+    border-radius: 5px;
+    border: 1px solid red; 
+    background: pink; 
+    text-align: left; 
+    color: brown; 
+    padding: 1px;
+}
+.successmsg{ 
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid green; 
+    background: #33CC00; 
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+.services{
+    background: var(--light-bg);
+ 
+    .box-container{
+       @include grid(25rem);
+ 
+       .box{
+          text-align: center;
+          padding:3rem;
+          background: var(--white);
+          box-shadow: var(--box-shadow);
+          border:var(--border);
+ 
+          &:hover img{
+             transform: translateY(-1rem);
+          }
+ 
+          img{
+             height: 7rem;
+             margin-bottom: .5rem;
+             transition:.2s linear;
+          }
+ 
+          h3{
+             @include titleText(1.7rem);
+             padding:1rem 0;
+          }
+ 
+          p{
+             @include graphText(1.4rem);
+          }
+       }
+    }
+ }
+ 
